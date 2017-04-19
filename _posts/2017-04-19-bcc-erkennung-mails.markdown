@@ -3,7 +3,7 @@ layout: post
 title: 	"Erkennung von Zusatzempfängern in verschlüsselten Mails"
 date:   2017.04-19 22:00:00
 categories: studienprojekt bachelorarbeit masterarbeit
-----
+---
 
 Motivation
 ==========
