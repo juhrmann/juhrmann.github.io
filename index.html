@@ -4,17 +4,41 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1>Themen für studentische Arbeiten</h1>
+  Im Folgenden finden Sie mögliche Themen für Masterarbeiten, Bachelorarbeiten sowie für Studienprojekte.
+  Bitte beachten Sie, dass sich viele Themen je nach Ausgestaltung für mehrere Bereiche eignen.
 
+  <h2>Themen mit Eignung als Masterarbeit</h2>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.tags.masterarbeit %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+ <h2>Themen mit Eignung als Bachelorarbeit</h2>
+  <ul class="posts">
+    {% for post in site.tags.bachelorarbeit %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Themen mit Eignung als Studienprojekt</h2>
+  <ul class="posts">
+    {% for post in site.tags.studienprojekt %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
