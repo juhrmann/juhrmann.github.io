@@ -16,3 +16,8 @@ welche Empfänger einer verschlüsselten Nachricht es gibt.
 
 Aufgabenstellung
 ================
+Folgende Aufgabenausprägungen wären möglich:
+
+ * Erstellung eines Thunderbird-Plugins für den Ableich von Mailempfängern mit hinterlegten Keys
+ * Software, die eine verschlüsselte Mail untersucht, wenn diese gespeichert wurde
+ * Mailservice, an den die verschlüsselte Mail zur Analyse weitergeleitet werden kann
