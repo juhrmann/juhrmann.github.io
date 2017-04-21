@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
+title: Über diese Seite
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Auf dieser Seite finden Sie Themenvorschläge für studentische Arbeiten bei
+[Prof. Dr. Johann Uhrmann](https://www.haw-landshut.de/hochschule/fakultaeten/informatik/wir-ueber-uns/professoren-innen.html)
+an der [Hochschule für angewandte Wissenschaften Landshut](https://www.haw-landshut.de).
