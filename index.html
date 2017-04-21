@@ -10,7 +10,7 @@ layout: default
 
   <h2>Themen mit Eignung als Masterarbeit</h2>
   <ul class="posts">
-    {% for post in site.tags.masterarbeit %}
+    {% for post in site.categories.masterarbeit %}
       <li>
         <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -20,7 +20,7 @@ layout: default
 
  <h2>Themen mit Eignung als Bachelorarbeit</h2>
   <ul class="posts">
-    {% for post in site.tags.bachelorarbeit %}
+    {% for post in site.categories.bachelorarbeit %}
       <li>
         <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -30,7 +30,7 @@ layout: default
 
   <h2>Themen mit Eignung als Studienprojekt</h2>
   <ul class="posts">
-    {% for post in site.tags.studienprojekt %}
+    {% for post in site.categories.studienprojekt %}
       <li>
         <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
