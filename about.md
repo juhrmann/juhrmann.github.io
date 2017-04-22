@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Über diese Seite
 permalink: /about/
 ---
