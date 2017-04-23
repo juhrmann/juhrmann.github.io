@@ -13,7 +13,7 @@ title: Themenvorschläge für studentische Arbeiten
   <ul class="posts">
     {% for post in site.categories.masterarbeit %}
       <li>
-        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
+        <!-- <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span> -->
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
@@ -23,7 +23,7 @@ title: Themenvorschläge für studentische Arbeiten
   <ul class="posts">
     {% for post in site.categories.bachelorarbeit %}
       <li>
-        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
+        <!-- <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span> -->
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
@@ -33,7 +33,7 @@ title: Themenvorschläge für studentische Arbeiten
   <ul class="posts">
     {% for post in site.categories.studienprojekt %}
       <li>
-        <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span>
+        <!-- <span class="post-date">{{ post.date | date: "%-d.%m.%Y" }}</span> -->
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
@@ -41,5 +41,6 @@ title: Themenvorschläge für studentische Arbeiten
 
 
 <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
 
 </div>
