@@ -1,7 +1,7 @@
 ---
 title:	"Optimierung von Stundenplänen"
 date:	2017.04-22 12:00:00
-categories: studienprojekt
+categories: studienprojekt bachelorarbeit
 ---
 
 Motivation
