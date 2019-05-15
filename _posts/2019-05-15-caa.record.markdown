@@ -1,0 +1,37 @@
+---
+title:	"Browser-Plugin zur Verfifizierung von CAA-Records"
+date:	2019.05-15 12:00:00
+categories: studienprojekt bachelorarbeit
+---
+
+Motivation
+==========
+Jede Zertifizierungsstelle (Certificate Authority) kann für jede Domain
+Zertifikate ausstellen.
+Wird der Zertifizierungsstelle vertraut, dann hat diese damit das Recht
+für alle Domains gültige Zertifikate auszustellen.
+
+Um zu verhindern, dass solche Zertifizierungsstellen diese Zertifikate
+missbräuchlich ausstellen, kann in der DNS-Zone einer Domäne hinterlegt
+werden, wer berechtigt ist, Zertifikate auszustellen.
+
+Derzeit prüfen nur wenige Clients, ob solche "DNS Certification Authority
+Authorization Records" (CAA) gesetzt sind.
+
+
+Aufgabenstellung
+================
+Entwickeln Sie ein Browser-Plugin, dass anzeigt, ob für die besuchten
+Domänen CAA-Records hinterlegt sind und ob die Zertifikate nur von
+authorisierten Zertifizierungsstellen ausgestellt sind.
+
+Mögliche alternative Bearbeitungsmöglichkeiten
+----------------------------------------------
+* Analyse von Verbindungsaufbauten im Netzwerk (z.B. per Raspberry PI)
+* Unterbinden von Verbindungen, wenn eine nicht-authorisierte CA erkannt wird
+* Messung des Verbreitungsgrads von CAA-Records und Erhebung der Gründe dafür
+
+Hinweise
+========
+* Interesse an IT-Sicherheitsthemen wird vorausgesetzt.
+* Grundsätzliche Kenntnisse in Netzwerkthemen und von Zertifikaten werden vorausgesetzt.
