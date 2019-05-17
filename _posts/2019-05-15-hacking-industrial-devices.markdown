@@ -20,3 +20,4 @@ Aufgabenstellung
 Hinweise
 ========
 * Die Bearbeitung findet an der Hochschule im IoT-Labor statt.
+* Das Projekt wird bei Vorliegen entsprechender Voraussetzungen durch einen Industriepartner begleitet.
