@@ -1,6 +1,6 @@
 ---
 title:	"Browser-Plugin zur Verfifizierung von CAA-Records"
-date:	2019.05-15 12:00:00
+date:	2019-05-15 12:00:00
 categories: studienprojekt bachelorarbeit
 ---
 

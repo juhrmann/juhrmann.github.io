@@ -1,6 +1,6 @@
 ---
 title:	"Evaluation von hochschulweiten Foren und Informationsplattformen"
-date:	2019.05-17 12:00:00
+date:	2019-05-17 12:00:00
 categories: studienprojekt
 ---
 

@@ -1,6 +1,6 @@
 ---
 title:	"Netzwerkbasierte Erkennung von CA-Anomalien"
-date:	2019.05-15 12:00:00
+date:	2019-05-15 12:00:00
 categories: studienprojekt bachelorarbeit masterarbeit
 ---
 

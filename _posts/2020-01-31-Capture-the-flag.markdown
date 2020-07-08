@@ -1,6 +1,6 @@
 ---
 title:	"Capture the Flag"
-date:	2020.01-31 12:00:00
+date:	2020-01-31 12:00:00
 categories: studienprojekt
 ---
 

@@ -1,6 +1,6 @@
 ---
 title:	"Supply-Chain-Angriffe auf IoT-Geräte"
-date:	2020.07-01 12:00:00
+date:	2020-07-01 12:00:00
 categories: studienprojekt bachelorarbeit
 ---
 
