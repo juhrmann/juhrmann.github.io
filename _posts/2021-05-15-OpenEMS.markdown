@@ -1,0 +1,39 @@
+---
+title:	"Sicherheitsanalyse von OpenEMS"
+date:	2021-05-17 12:00:00
+categories: studienprojekt bachelorarbeit masterarbeit
+---
+
+Motivation
+==========
+Im Zusammenhang mit der Energiewende und der Nutzung erneuerbarer
+Energiequellen wird das intelligente Management von Energiespeichern,
+-verbrauchern und -erzeugern zu einer kritischen Komponente der
+Energieversorgung.
+
+Mit OpenEMS ( https://openems.io ) wird diese Managementkomponente
+als Open Source zur Verfügung gestellt.
+Mit der Integration in kritische Infrastruktur wird dieses
+Management ebenfalls zu einer kritischen Komponente.
+
+
+Aufgabenstellung
+================
+
+* Sie testen und reviewen die OpenSource-Lösung OpenEMS hinsichtlich Sicherheitsanforderungen
+* Sie identifizieren potentielle Sicherheitslücken und Angriffsmöglichkeiten
+
+
+Mögliche alternative Bearbeitungsmöglichkeiten
+==============================================
+
+* Erstellung einer Threat-Risk-Analyse von OpenEMS
+* Erstellung eines Fuzzing-Harness für OpenEMS
+* Definition und Prototypisierung von Sicherheitstests für CI/CD-Pipelines
+
+
+Hinweise
+========
+1. Interesse an IT-Sicherheitsthemen und Embedded-Technologie wird vorausgesetzt.
+2. Die Möglichkeit zur Kooperation mit Industriepartnern (Fenecon) besteht.
+   
